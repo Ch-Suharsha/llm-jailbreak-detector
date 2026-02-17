@@ -1,0 +1,44 @@
+{
+  "model_name": "Logistic Regression",
+  "best_params": {
+    "clf__penalty": "l2",
+    "clf__C": "0.01"
+  },
+  "cv_f1_score": 0.9979244270249081,
+  "test_precision": 0.9933333333333333,
+  "test_recall": 0.9933333333333333,
+  "test_f1": 0.9933333333333333,
+  "train_samples": 2400,
+  "test_samples": 600,
+  "feature_count": 397,
+  "handcrafted_features": [
+    "char_count",
+    "word_count",
+    "avg_word_length",
+    "jailbreak_keyword_freq",
+    "special_char_ratio",
+    "uppercase_ratio",
+    "numeric_ratio",
+    "exclamation_count",
+    "sentence_count",
+    "imperative_verb_score",
+    "quote_nesting_depth",
+    "instruction_pattern_count",
+    "newline_count"
+  ],
+  "comparison_results": {
+    "Logistic Regression": {
+      "mean_f1": 0.9979244270249081,
+      "std_f1": 0.0022680128414685626
+    },
+    "Random Forest": {
+      "mean_f1": 0.9958193753444242,
+      "std_f1": 0.002291761883873829
+    },
+    "XGBoost": {
+      "mean_f1": 0.991252566245398,
+      "std_f1": 0.004833639762554129
+    }
+  },
+  "targets_met": true
+}
