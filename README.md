@@ -194,10 +194,3 @@ Returns prediction stats and recent history.
 - Streamlit for the demo UI
 - pandas, numpy, matplotlib, seaborn for data and charts
 
-## Resume Description
-
-> Built an LLM jailbreak detection system that classifies adversarial prompts using a hybrid ML pipeline — 13 hand-crafted features (keyword matching, injection pattern detection, structural analysis) combined with 384-dim sentence embeddings fed into a tuned Logistic Regression classifier. Trained on 3,000 examples across 7 attack categories (DAN, role-play, encoding, nested instructions, system prompt leaks). Achieves 99.3% precision, 99.3% recall, and 99.9% AUC on held-out test data. Tested against a 28-case adversarial suite — 89% accuracy. Served via FastAPI (~50ms latency) with a Streamlit demo. Entire pipeline trains in under 20 seconds on CPU.
-
----
-
-I built this as a portfolio project for Trust and Safety engineering roles. Feel free to reach out if you have any questions or suggestions.
