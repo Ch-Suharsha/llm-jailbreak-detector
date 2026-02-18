@@ -1,5 +1,7 @@
 # LLM Jailbreak Detection System
 
+**[Live Demo](https://llm-jailbreak-detector-wmeq6ptc4femd4hryy3rpv.streamlit.app/)**
+
 So, I built a jailbreak detection system for LLMs. The idea is simple — before a user prompt reaches the LLM, this system checks if it's an adversarial attack (like DAN prompts, role-play manipulation, encoded instructions) and flags it. I built this as a portfolio project for Trust and Safety roles, and the whole thing runs on CPU in under 20 seconds.
 
 ## Why I Built This
